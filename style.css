@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+h1 {
+    position: absolute;
+    margin-bottom: 880px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-estrada {
+  background-color: lightblue;
+  width: 120px;
+  height: 800px;
+  border-radius: 50px;
+  background-image: url(images/estrada.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.container-floresta {
+  background-color: lightblue;
+  width: 120px;
+  height: 800px;
+  border-radius: 50px;
+  background-image: url(images/floresta.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.container-nevoeiro {
+  background-color: lightblue;
+  width: 120px;
+  height: 800px;
+  border-radius: 50px;
+  background-image: url(images/nevoeiro.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.container-ponte {
+  background-color: lightblue;
+  width: 120px;
+  height: 800px;
+  border-radius: 50px;
+  background-image: url(images/ponte.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.container-sol {
+  background-color: lightblue;
+  width: 120px;
+  height: 800px;
+  border-radius: 50px;
+  background-image: url(images/sol.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+
+  section {
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+
+  h1 {
+    position: absolute;
+  }
+}
